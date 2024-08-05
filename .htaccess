@@ -1,0 +1,11 @@
+RewriteEngine on
+
+Options -Indexes
+
+# If the user types "index.php" or "admin.php".
+RewriteCond $1 !^(index\.php|admincp\.php|images|robots\.txt|phpmyadmin)
+
+# If the user types any site section, like "site/section".
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index\.php/$1 [L,QSA]

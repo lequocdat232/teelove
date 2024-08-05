@@ -1,0 +1,35 @@
+body {
+  font-family: Inter, sans-serif;
+}
+/* Updated CSS with open selector */
+#login_modal.open {
+  transform: translateX(0px);
+  display: block;
+  position: fixed;
+  top: 0;
+  }
+    /* Update CSS with transition and transform rules */
+    @keyframes login_modal_move {
+      from {right: -500px;}
+      to {right: 0;}
+    }
+  #login_modal {
+  animation: login_modal_move 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  width: 500px;
+  height: 100vh;
+  overflow: auto;
+  display: none;
+  }
+
+div.banner_group_text {
+  background-color: #35608B;
+}
+
+div#banner_img {
+  background: url("./CLP_LandingPage_Kids.jpg") no-repeat center;
+  background-size: cover;
+  width: 695px;
+  height: 270px;
+}

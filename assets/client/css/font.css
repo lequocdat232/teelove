@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Averta';
+  src: url('../fonts/Averta-Extrabold.woff2') format('woff2'), url('../fonts/Averta-Extrabold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Averta';
+  src: url('../fonts/Averta-Regular.woff2') format('woff2'), url('../fonts/Averta-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Averta';
+  src: url('../fonts/Averta-Semibold.woff2') format('woff2'), url('../fonts/Averta-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal
+}
+
+/* @font-face {
+  font-family: 'Signwriter';
+  src: url('../fonts/UTMASSignwriter.woff2') format('woff2'), url('../fonts/UTMASSignwriter.woff') format('woff');
+  font-weight: 400;
+  font-style: normal
+} */
+
+@font-face {
+  font-family: 'StagSansVU';
+  src: url('../fonts/StagSansVU-Book.woff2') format('woff2'), url('../fonts/StagSansVU-Book.woff') format('woff');
+  font-weight: 400;
+  font-style: normal
+}
+
+/* @font-face {
+  font-family: 'StagSansVU-Medium';
+  src: url('../fonts/StagSansVU-Medium.woff2') format('woff2'), url('../fonts/StagSansVU-Medium.woff') format('woff');
+  font-weight: 600;
+  font-style: normal
+} */
+
+/* @font-face {
+  font-family: 'iCiel Gotham Rounded';
+  src: url('../fonts/iCielGothamRounded-Light.woff2') format('woff2'), url('../fonts/iCielGothamRounded-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'iCiel Gotham Rounded';
+  src: url('../fonts/iCielGothamRounded-Book.woff2') format('woff2'), url('../fonts/iCielGothamRounded-Book.woff') format('woff');
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'iCiel Gotham Rounded';
+  src: url('../fonts/iCielGothamRounded-Bold.woff2') format('woff2'), url('../fonts/iCielGothamRounded-Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'iCiel Gotham Rounded';
+  src: url('../fonts/iCielGothamRounded-Bold.woff2') format('woff2'), url('../fonts/iCielGothamRounded-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?1tvt29');
+  src: url('../fonts/icomoon.eot?1tvt29#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?1tvt29') format('truetype'), url('../fonts/icomoon.woff?1tvt29') format('woff'), url('../fonts/.svg?1tvt29#icomoon') format('svg');
+  font-weight: 400;
+  font-style: normal
+} */
